@@ -1,0 +1,12 @@
+Fri, 08 May 2020 14:26:26 - INFO -  * Restarting with stat
+Fri, 08 May 2020 14:26:27 - WARNING -  * Debugger is active!
+Fri, 08 May 2020 14:26:27 - INFO -  * Debugger PIN: 154-886-592
+Fri, 08 May 2020 14:26:27 - INFO -  * Running on http://127.0.0.1:8088/ (Press CTRL+C to quit)
+Fri, 08 May 2020 14:39:48 - INFO -  * Restarting with stat
+Fri, 08 May 2020 14:39:49 - WARNING -  * Debugger is active!
+Fri, 08 May 2020 14:39:49 - INFO -  * Debugger PIN: 154-886-592
+Fri, 08 May 2020 14:39:49 - INFO -  * Running on http://127.0.0.1:8088/ (Press CTRL+C to quit)
+Fri, 08 May 2020 14:41:39 - INFO - 127.0.0.1 - - [08/May/2020 14:41:39] "[37mGET /ai?content=%22你好%22 HTTP/1.1[0m" 200 -
+Fri, 08 May 2020 14:41:39 - INFO - 127.0.0.1 - - [08/May/2020 14:41:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+Fri, 08 May 2020 14:41:43 - INFO - 127.0.0.1 - - [08/May/2020 14:41:43] "[37mGET /ai?content=%22你好%22 HTTP/1.1[0m" 200 -
+Fri, 08 May 2020 14:43:06 - INFO - 127.0.0.1 - - [08/May/2020 14:43:06] "[37mGET /ai?content=%22你好%22 HTTP/1.1[0m" 200 -

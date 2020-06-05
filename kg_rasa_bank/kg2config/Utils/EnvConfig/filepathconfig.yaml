@@ -1,0 +1,32 @@
+Windows:
+  log:
+    path:/Logs/
+  img:
+    path:/File/IMG/
+  pdf:
+    path:/File/PDF/
+  word:
+    path:/File/WORD/
+  wechatimg:
+    path:/File/WeChatIMG/
+  sinaimg:
+    path:/File/SinaIMG/
+  persistence:
+    path:/Env/PersistenceFile/
+
+
+Linux:
+  log:
+    path:/Logs/
+  img:
+    path:/File/IMG/
+  pdf:
+    path:/File/PDF/
+  word:
+    path:/File/WORD/
+  wechatimg:
+    path:/File/WeChatIMG/
+  sinaimg:
+    path:/File/SinaIMG/
+  persistence:
+    path:/Env/PersistenceFile/

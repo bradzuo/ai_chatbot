@@ -1,0 +1,35 @@
+language: "zh"
+
+pipeline:
+- name: MitieNLP
+  model: "data/total_word_feature_extractor_zh.dat"
+- name: "JiebaTokenizer"
+  dictionary_path: "data/jieba_dic/bank.txt"
+- name: "CountVectorsFeaturizer"
+- name: "CountVectorsFeaturizer"
+  analyzer: "char_wb"
+  min_ngram: 1
+  max_ngram: 4
+- name: "CRFEntityExtractor"  # 实体抽取
+- name: "EntitySynonymMapper"
+- name: EmbeddingIntentClassifier
+- name: "mycomponent.MyComponent"
+
+policies:
+  - name: MemoizationPolicy
+    max_history: 8
+  - name: KerasPolicy
+    max_history: 8
+  - name: MappingPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.5
+    core_threshold: 0.4
+    fallback_action_name: utter_out_of_scope
+#      fallback_core_action_name: "action_default_fallback"
+#  - name: TwoStageFallbackPolicy
+#    nlu_threshold: 0.8
+#    ambiguity_threshold: 0.5
+#    core_threshold: 0.8
+#    fallback_core_action_name: "action_default_fallback"
+#    fallback_nlu_action_name: "action_default_fallback"
+#    deny_suggestion_intent_name: "out_of_scope"
