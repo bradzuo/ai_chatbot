@@ -90,7 +90,7 @@ opt-einsum==3.2.1
 packaging==19.2
 pandas==1.0.3
 pika==1.0.1
-Pillow==7.1.2
+Pillow==9.0.0
 pkginfo==1.5.0.1
 promise==2.3
 prompt-toolkit==2.0.10
