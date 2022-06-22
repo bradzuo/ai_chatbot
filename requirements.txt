@@ -83,7 +83,7 @@ multidict==4.6.1
 neobolt==1.7.17
 neotime==1.7.4
 networkx==2.4
-numpy==1.18.4
+numpy==1.22.0
 oauth2client==4.1.3
 opencv-python==4.2.0.34
 opt-einsum==3.2.1
