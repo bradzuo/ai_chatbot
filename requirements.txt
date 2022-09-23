@@ -94,7 +94,7 @@ Pillow==7.1.2
 pkginfo==1.5.0.1
 promise==2.3
 prompt-toolkit==2.0.10
-protobuf==3.12.1
+protobuf==3.18.3
 py2neo==4.3.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
